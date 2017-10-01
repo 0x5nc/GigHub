@@ -212,6 +212,10 @@
     <Compile Include="Migrations\201709261722076_PopulateDatabase.Designer.cs">
       <DependentUpon>201709261722076_PopulateDatabase.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201710011631540_AddForeignKeysPropertyToGig.cs" />
+    <Compile Include="Migrations\201710011631540_AddForeignKeysPropertyToGig.Designer.cs">
+      <DependentUpon>201710011631540_AddForeignKeysPropertyToGig.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -310,6 +314,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201709261722076_PopulateDatabase.resx">
       <DependentUpon>201709261722076_PopulateDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710011631540_AddForeignKeysPropertyToGig.resx">
+      <DependentUpon>201710011631540_AddForeignKeysPropertyToGig.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
